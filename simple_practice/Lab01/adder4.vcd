@@ -1,0 +1,323 @@
+$date
+	Sat Sep 14 23:59:30 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! out_valid $end
+$var wire 9 " out_change [8:0] $end
+$var reg 64 # card_num [63:0] $end
+$var reg 9 $ input_money [8:0] $end
+$var reg 32 % price [31:0] $end
+$var reg 32 & snack_num [31:0] $end
+$scope module SSC0 $end
+$var wire 64 ' card_num [63:0] $end
+$var wire 9 ( input_money [8:0] $end
+$var wire 32 ) price [31:0] $end
+$var wire 32 * snack_num [31:0] $end
+$var wire 64 + sorted_snack_price [63:0] $end
+$var wire 1 ! out_valid $end
+$var wire 9 , out_change [8:0] $end
+$scope module calculator0 $end
+$var wire 9 - input_money [8:0] $end
+$var wire 1 ! valid $end
+$var wire 64 . sorted_snack_price [63:0] $end
+$var wire 9 / out_change [8:0] $end
+$var reg 9 0 change [8:0] $end
+$var reg 1 1 done $end
+$var reg 3 2 idx [2:0] $end
+$var reg 3 3 idx2 [2:0] $end
+$var reg 9 4 operand1 [8:0] $end
+$var reg 9 5 operand2 [8:0] $end
+$var reg 9 6 sub_p [8:0] $end
+$upscope $end
+$scope module card_num_validator0 $end
+$var wire 64 7 card_num [63:0] $end
+$var wire 1 ! out_valid $end
+$var wire 4 8 rem [3:0] $end
+$var wire 5 9 part_sum7 [4:0] $end
+$var wire 5 : part_sum6 [4:0] $end
+$var wire 5 ; part_sum5 [4:0] $end
+$var wire 5 < part_sum4 [4:0] $end
+$var wire 5 = part_sum3 [4:0] $end
+$var wire 5 > part_sum2 [4:0] $end
+$var wire 5 ? part_sum1 [4:0] $end
+$var wire 5 @ part_sum0 [4:0] $end
+$var wire 7 A part3_sum1 [6:0] $end
+$var wire 7 B part3_sum0 [6:0] $end
+$var wire 6 C part2_sum3 [5:0] $end
+$var wire 6 D part2_sum2 [5:0] $end
+$var wire 6 E part2_sum1 [5:0] $end
+$var wire 6 F part2_sum0 [5:0] $end
+$var wire 32 G card_num_digit [31:0] $end
+$scope module v0 $end
+$var wire 4 H card_num [3:0] $end
+$var reg 4 I card_num_digit [3:0] $end
+$upscope $end
+$scope module v10 $end
+$var wire 4 J card_num [3:0] $end
+$var reg 4 K card_num_digit [3:0] $end
+$upscope $end
+$scope module v12 $end
+$var wire 4 L card_num [3:0] $end
+$var reg 4 M card_num_digit [3:0] $end
+$upscope $end
+$scope module v14 $end
+$var wire 4 N card_num [3:0] $end
+$var reg 4 O card_num_digit [3:0] $end
+$upscope $end
+$scope module v2 $end
+$var wire 4 P card_num [3:0] $end
+$var reg 4 Q card_num_digit [3:0] $end
+$upscope $end
+$scope module v4 $end
+$var wire 4 R card_num [3:0] $end
+$var reg 4 S card_num_digit [3:0] $end
+$upscope $end
+$scope module v6 $end
+$var wire 4 T card_num [3:0] $end
+$var reg 4 U card_num_digit [3:0] $end
+$upscope $end
+$scope module v8 $end
+$var wire 4 V card_num [3:0] $end
+$var reg 4 W card_num_digit [3:0] $end
+$upscope $end
+$upscope $end
+$scope module sorting0 $end
+$var wire 32 X price [31:0] $end
+$var wire 32 Y snack [31:0] $end
+$var wire 64 Z sorted_snack_price [63:0] $end
+$var wire 64 [ snack_price [63:0] $end
+$var reg 8 \ L0_0 [7:0] $end
+$var reg 8 ] L0_1 [7:0] $end
+$var reg 8 ^ L0_2 [7:0] $end
+$var reg 8 _ L0_3 [7:0] $end
+$var reg 8 ` L0_4 [7:0] $end
+$var reg 8 a L0_5 [7:0] $end
+$var reg 8 b L0_6 [7:0] $end
+$var reg 8 c L0_7 [7:0] $end
+$var reg 8 d L1_0 [7:0] $end
+$var reg 8 e L1_1 [7:0] $end
+$var reg 8 f L1_2 [7:0] $end
+$var reg 8 g L1_3 [7:0] $end
+$var reg 8 h L1_4 [7:0] $end
+$var reg 8 i L1_5 [7:0] $end
+$var reg 8 j L1_6 [7:0] $end
+$var reg 8 k L1_7 [7:0] $end
+$var reg 8 l L2_0 [7:0] $end
+$var reg 8 m L2_1 [7:0] $end
+$var reg 8 n L2_2 [7:0] $end
+$var reg 8 o L2_3 [7:0] $end
+$var reg 8 p L2_4 [7:0] $end
+$var reg 8 q L2_5 [7:0] $end
+$var reg 8 r L2_6 [7:0] $end
+$var reg 8 s L2_7 [7:0] $end
+$var reg 8 t L3_0 [7:0] $end
+$var reg 8 u L3_1 [7:0] $end
+$var reg 8 v L3_2 [7:0] $end
+$var reg 8 w L3_3 [7:0] $end
+$var reg 8 x L3_4 [7:0] $end
+$var reg 8 y L3_5 [7:0] $end
+$var reg 8 z L3_6 [7:0] $end
+$var reg 8 { L3_7 [7:0] $end
+$var reg 8 | L4_1 [7:0] $end
+$var reg 8 } L4_2 [7:0] $end
+$var reg 8 ~ L4_3 [7:0] $end
+$var reg 8 !" L4_4 [7:0] $end
+$var reg 8 "" L4_5 [7:0] $end
+$var reg 8 #" L4_6 [7:0] $end
+$var reg 8 $" L5_2 [7:0] $end
+$var reg 8 %" L5_3 [7:0] $end
+$var reg 8 &" L5_4 [7:0] $end
+$var reg 8 '" L5_5 [7:0] $end
+$var reg 8 (" L6_3 [7:0] $end
+$var reg 8 )" L6_4 [7:0] $end
+$scope module multi0 $end
+$var wire 32 *" price [31:0] $end
+$var wire 32 +" snack [31:0] $end
+$var wire 64 ," snack_price [63:0] $end
+$scope module multiplication_table0 $end
+$var wire 4 -" operand1 [3:0] $end
+$var wire 4 ." operand2 [3:0] $end
+$var reg 8 /" result [7:0] $end
+$upscope $end
+$scope module multiplication_table1 $end
+$var wire 4 0" operand1 [3:0] $end
+$var wire 4 1" operand2 [3:0] $end
+$var reg 8 2" result [7:0] $end
+$upscope $end
+$scope module multiplication_table2 $end
+$var wire 4 3" operand1 [3:0] $end
+$var wire 4 4" operand2 [3:0] $end
+$var reg 8 5" result [7:0] $end
+$upscope $end
+$scope module multiplication_table3 $end
+$var wire 4 6" operand1 [3:0] $end
+$var wire 4 7" operand2 [3:0] $end
+$var reg 8 8" result [7:0] $end
+$upscope $end
+$scope module multiplication_table4 $end
+$var wire 4 9" operand1 [3:0] $end
+$var wire 4 :" operand2 [3:0] $end
+$var reg 8 ;" result [7:0] $end
+$upscope $end
+$scope module multiplication_table5 $end
+$var wire 4 <" operand1 [3:0] $end
+$var wire 4 =" operand2 [3:0] $end
+$var reg 8 >" result [7:0] $end
+$upscope $end
+$scope module multiplication_table6 $end
+$var wire 4 ?" operand1 [3:0] $end
+$var wire 4 @" operand2 [3:0] $end
+$var reg 8 A" result [7:0] $end
+$upscope $end
+$scope module multiplication_table7 $end
+$var wire 4 B" operand1 [3:0] $end
+$var wire 4 C" operand2 [3:0] $end
+$var reg 8 D" result [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b101101 D"
+b11 C"
+b1111 B"
+b10010 A"
+b10 @"
+b1001 ?"
+b1100011 >"
+b1011 ="
+b1001 <"
+b110000 ;"
+b1000 :"
+b110 9"
+b100000 8"
+b1000 7"
+b100 6"
+b1110 5"
+b1 4"
+b1110 3"
+b1110 2"
+b1110 1"
+b1 0"
+b100000 /"
+b100 ."
+b1000 -"
+b10000000001110000011100010000000110000011000110001001000101101 ,"
+b10000001111001000110100110011111 +"
+b1001110000110001000101100100011 *"
+b100000 )"
+b100000 ("
+b101101 '"
+b100000 &"
+b100000 %"
+b10010 $"
+b110000 #"
+b101101 ""
+b10010 !"
+b100000 ~
+b100000 }
+b1110 |
+b1100011 {
+b110000 z
+b101101 y
+b10010 x
+b100000 w
+b100000 v
+b1110 u
+b1110 t
+b1100011 s
+b110000 r
+b101101 q
+b10010 p
+b100000 o
+b100000 n
+b1110 m
+b1110 l
+b1100011 k
+b110000 j
+b101101 i
+b10010 h
+b100000 g
+b1110 f
+b100000 e
+b1110 d
+b101101 c
+b10010 b
+b1100011 a
+b110000 `
+b100000 _
+b1110 ^
+b100000 ]
+b1110 \
+b10000000001110000011100010000000110000011000110001001000101101 [
+b111000001110000100100010000000100000001011010011000001100011 Z
+b10000001111001000110100110011111 Y
+b1001110000110001000101100100011 X
+b100 W
+b10 V
+b10 U
+b1 T
+b110 S
+b11 R
+b1000 Q
+b100 P
+b10 O
+b1 N
+b111 M
+b1000 L
+b1001 K
+b1001 J
+b111 I
+b1000 H
+b1111000011000100100100101110010 G
+b10011 F
+b10110 E
+b10111 D
+b10000 C
+b101001 B
+b100111 A
+b1010 @
+b1001 ?
+b1110 >
+b1000 =
+b110 <
+b10001 ;
+b1110 :
+b10 9
+b0 8
+b1000001101000001001110000001011000100010100110001000011100010000 7
+bx 6
+b111111010 5
+b1100011 4
+bx 3
+b0 2
+11
+b111111010 0
+b111111010 /
+b111000001110000100100010000000100000001011010011000001100011 .
+b111111010 -
+b111111010 ,
+b111000001110000100100010000000100000001011010011000001100011 +
+b10000001111001000110100110011111 *
+b1001110000110001000101100100011 )
+b111111010 (
+b1000001101000001001110000001011000100010100110001000011100010000 '
+b10000001111001000110100110011111 &
+b1001110000110001000101100100011 %
+b111111010 $
+b1000001101000001001110000001011000100010100110001000011100010000 #
+b111111010 "
+1!
+$end
